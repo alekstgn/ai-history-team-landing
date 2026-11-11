@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img" aria-label="Абстрактная иллюстрация: документ с отметками проверки">
+  <rect width="400" height="240" fill="#1a2030"/>
+  <rect x="70" y="30" width="260" height="180" rx="10" fill="#10141c" stroke="#2a3242"/>
+  <rect x="100" y="60" width="200" height="12" rx="6" fill="#2a3242"/>
+  <rect x="100" y="84" width="160" height="12" rx="6" fill="#2a3242"/>
+  <rect x="100" y="108" width="185" height="12" rx="6" fill="#2a3242"/>
+  <g fill="none" stroke="#c9a227" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M296 96 l12 12 22 -26"/>
+    <path d="M296 140 l12 12 22 -26"/>
+  </g>
+  <rect x="100" y="168" width="90" height="10" rx="5" fill="#c9a227" opacity="0.7"/>
+  <text x="200" y="204" text-anchor="middle" fill="#9aa3b2" font-family="sans-serif" font-size="13">проверка маркировки материалов</text>
+</svg>

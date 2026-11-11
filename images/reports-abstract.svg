@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img" aria-label="Абстрактная иллюстрация: стопка отчётов с печатью проверки">
+  <rect width="400" height="240" fill="#1a2030"/>
+  <g stroke="#2a3242" fill="#10141c">
+    <rect x="88" y="46" width="180" height="150" rx="8" transform="rotate(-6 178 121)"/>
+    <rect x="120" y="38" width="180" height="150" rx="8" transform="rotate(-2 210 113)"/>
+    <rect x="150" y="34" width="180" height="150" rx="8" transform="rotate(3 240 109)" stroke="#c9a227"/>
+  </g>
+  <g stroke="#9aa3b2" stroke-width="3" stroke-linecap="round">
+    <path d="M185 76 h90"/>
+    <path d="M185 96 h70"/>
+    <path d="M185 116 h84"/>
+  </g>
+  <circle cx="300" cy="160" r="26" fill="none" stroke="#c9a227" stroke-width="3"/>
+  <path d="M288 160 l9 10 16 -20" fill="none" stroke="#c9a227" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="200" y="212" text-anchor="middle" fill="#9aa3b2" font-family="sans-serif" font-size="13">проверка отчётов подрядчиков</text>
+</svg>
