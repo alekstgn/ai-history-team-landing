@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img" aria-label="Абстрактная иллюстрация: раскрытый учебник с вопросами и галочками">
+  <rect width="400" height="240" fill="#1a2030"/>
+  <g stroke="#2a3242" fill="#10141c">
+    <path d="M200 60 C 160 42, 120 42, 95 58 L 95 178 C 120 162, 160 162, 200 180 Z"/>
+    <path d="M200 60 C 240 42, 280 42, 305 58 L 305 178 C 280 162, 240 162, 200 180 Z"/>
+  </g>
+  <line x1="200" y1="60" x2="200" y2="180" stroke="#c9a227" stroke-width="2"/>
+  <g fill="#c9a227">
+    <circle cx="150" cy="86" r="4"/>
+    <circle cx="250" cy="86" r="4"/>
+  </g>
+  <g stroke="#9aa3b2" stroke-width="3" stroke-linecap="round">
+    <path d="M126 110 h50"/>
+    <path d="M226 110 h50"/>
+    <path d="M126 134 h44"/>
+    <path d="M226 134 h44"/>
+    <path d="M126 158 h48"/>
+    <path d="M226 158 h48"/>
+  </g>
+  <text x="200" y="212" text-anchor="middle" fill="#9aa3b2" font-family="sans-serif" font-size="13">учебные тексты, вопросы и тесты</text>
+</svg>
