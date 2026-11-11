@@ -1,12 +1,10 @@
 <!DOCTYPE html>
-<html lang="ru">
-<head>
+<html lang="ru"><head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="dark">
   <meta name="theme-color" content="#10141c">
-  <meta name="description"
-        content="ИИ-разработка для истории и культуры: учебные материалы, проверка контента, работа с отчётами и редкими книгами. Апрель–октябрь 2026.">
+  <meta name="description" content="ИИ-разработка для истории и культуры: учебные материалы, проверка контента, работа с отчётами и редкими книгами. Апрель–октябрь 2026.">
   <title>ИИ-разработка для истории и культуры</title>
   <style>
     :root {
@@ -247,17 +245,25 @@
 
     .visual {
       display: flex;
-      height: 140px;
+      height: 170px;
+      overflow: hidden;
       align-items: center;
       justify-content: center;
       margin-top: 24px;
-      padding: 16px;
-      border: 1px dashed var(--line);
-      border-radius: 8px;
+      padding: 0;
+      border: 1px solid var(--line);
+      border-radius: 12px;
       color: var(--secondary);
       text-align: center;
     }
 
+    .visual img,
+    .visual svg {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
     .visual figcaption {
       max-width: 260px;
     }
@@ -517,9 +523,7 @@
                 1&nbsp;040 вопросов и 4&nbsp;160 пояснений.
               </p>
             </div>
-            <figure class="visual"
-                    role="img"
-                    aria-label="Место для скриншота учебных материалов портала история.рф">
+            <figure class="visual" role="img" aria-label="Место для скриншота учебных материалов портала история.рф">
               <img src="images/app-tests.jpg" alt="Учебные материалы на портале история.рф" loading="lazy">
             </figure>
             <ul class="tags" aria-label="Темы проекта">
@@ -537,9 +541,7 @@
                 Подготовили тексты о памятниках и монументах РВИО.
               </p>
             </div>
-            <figure class="visual"
-                    role="img"
-                    aria-label="Место для изображения памятника или монумента из материалов портала история.рф">
+            <figure class="visual" role="img" aria-label="Место для изображения памятника или монумента из материалов портала история.рф">
               <img src="images/monument.jpg" alt="Памятник, открытый при поддержке РВИО" loading="lazy">
             </figure>
             <ul class="tags" aria-label="Темы проекта">
@@ -563,9 +565,7 @@
                 равнозначны подтверждённым нарушениям
               </p>
             </div>
-            <figure class="visual"
-                    role="img"
-                    aria-label="Место для скриншота материалов портала история.рф, проверяемых агентом маркировки">
+            <figure class="visual" role="img" aria-label="Место для скриншота материалов портала история.рф, проверяемых агентом маркировки">
               <img src="images/labeling-abstract.svg" alt="Абстрактная иллюстрация: проверка маркировки материалов" loading="lazy">
             </figure>
             <ul class="tags" aria-label="Темы проекта">
@@ -585,9 +585,7 @@
                 и проходит тестирование с экспертами.
               </p>
             </div>
-            <figure class="visual"
-                    role="img"
-                    aria-label="Место для иллюстрации проекта проверки отчётов из материалов портала история.рф">
+            <figure class="visual" role="img" aria-label="Место для иллюстрации проекта проверки отчётов из материалов портала история.рф">
               <img src="images/reports-abstract.svg" alt="Абстрактная иллюстрация: проверка отчётов подрядчиков" loading="lazy">
             </figure>
             <ul class="tags" aria-label="Темы проекта">
@@ -610,14 +608,31 @@
                 155 тыс. знаков.
               </p>
             </div>
-            <figure class="visual"
-                    role="img"
-                    aria-label="Место для изображения книг из материалов портала история.рф">
+            <figure class="visual" role="img" aria-label="Место для изображения книг из материалов портала история.рф">
               <img src="images/books-fest.jpg" alt="Книжный фестиваль «Красная площадь»" loading="lazy">
             </figure>
             <ul class="tags" aria-label="Темы проекта">
               <li>Поиск книг</li>
               <li>Перевод</li>
+            </ul>
+          </article>
+          <article class="project-card" aria-labelledby="social-title">
+            <p class="project-number">06 / Образование</p>
+            <h3 id="social-title">Обществознание 9–10 классов</h3>
+            <p class="fact">91 статья</p>
+            <div class="description">
+              <p>
+                Подготовили 91 статью и 29 тестов по обществознанию
+                для 9–10 классов; создаются презентации к урокам.
+              </p>
+            </div>
+            <figure class="visual" role="img" aria-label="Абстрактная иллюстрация: статья обществознания и тест с вариантами ответов">
+              <img src="images/social-abstract.svg" alt="Статьи и тесты по обществознанию" loading="lazy">
+            </figure>
+            <ul class="tags" aria-label="Темы проекта">
+              <li>Статьи</li>
+              <li>Тесты</li>
+              <li>Презентации</li>
             </ul>
           </article>
         </div>
@@ -682,5 +697,5 @@
       </p>
     </div>
   </footer>
-</body>
-</html>
+
+</body></html>
